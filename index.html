@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Crud CriptoDeivid</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+
+
+
+  <body>
+    <div id="app">
+      <h1>Welcome to Javascript Crud CriptoDeivid</h1>
+      <form id="crud-form">
+       <input type="text" name="name" id="name" placeholder="Nombre" required />
+        <input type="email" name="email" id="email" placeholder="Correo Electrónico" required />
+        <button type="submit" id ="submit">Enviar</button>
+        <ul id="user-list" class="user-list"></ul>
+      </form>
+    </div>
+    <script type="module" src="./src/api.js"></script>
+    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/crud.js"></script>
+  </body>
+</html>
